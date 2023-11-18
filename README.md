@@ -1,16 +1,47 @@
 # task_app
 
-A new Flutter project.
+Assignment Steps:
 
-## Getting Started
+Step 1: Set Up Back4App
 
-This project is a starting point for a Flutter application.
+Sign up for a Back4App account (if not already done).
 
-A few resources to get you started if this is your first Flutter project:
+Create a new Back4App app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Create a class in Back4App named Task with columns title (String) and description (String).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Step 2: Flutter Setup
+
+Create a new Flutter project.
+
+Add the required dependencies to your pubspec.yaml file.
+
+Initialize the Parse SDK in your Flutter app.
+
+Step 3: Task List
+
+Create a screen in your Flutter app to display a list of tasks.
+
+Implement a function to fetch tasks from Back4App using the Back4App API.
+
+Display the tasks in a list view with titles and descriptions.
+
+Step 4: Task Creation (10 points)
+
+Create a screen for adding new tasks.
+
+Implement functionality to create and save tasks to Back4App.
+
+Verify that newly created tasks appear in the task list.
+
+Step 5: Task Details
+
+Add a feature to view task details when a task is tapped in the task list.
+
+Display the title and description of the selected task.
+
+Step 6: Bonus Features
+
+Add a feature to edit and update existing tasks.
+
+Implement a feature for task deletion.
